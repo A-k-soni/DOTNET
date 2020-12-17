@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "first";
+}
+
+<h2>first</h2>
+
+@{
+    int i = 0;
+    i = ViewBag.Id;
+}
+
+
+@{
+    if (i % 2 == 0)
+    {
+        @:Result = Even <br />
+    }
+    else
+    {
+        @:Result = odd <br />
+    }
+}
